@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductInfo from '../components/ProductInfo';
-import '../styles/productDetail.scss';
+import ProductInfo from '@components/ProductInfo';
+import '@styles/productDetail.scss';
 
 const ProductDetail = () => {
 	return (
