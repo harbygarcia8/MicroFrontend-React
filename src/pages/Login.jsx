@@ -23,8 +23,7 @@ const Login = () => {
 					<input type="text" name="email" placeholder="platzi@example.cm" className="input input-email" />
 					<label htmlFor="password" className="label">Password</label>
 					<input type="password" name="password" placeholder="*********" className="input input-password" />
-					<button onClick={handleSubmit} 
-							className="primary-button login-button">Login</button>
+					<button onClick={handleSubmit} className="primary-button login-button">Login</button>
 					<a href="/">Forgot my password</a>
 				</form>
 				<button className="secondary-button signup-button">Sign up</button>
