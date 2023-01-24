@@ -13,10 +13,6 @@ function Header() {
     const [toggleOrders, setToggleOrders] = useState(false);
     const { state } = useContext(AppContext)
 
-    // const handleToggle = () => {
-    //     setToggle(!toggle);
-    // }
-
     return (
         <nav>
             <img src={menu} alt="menu" className="menu" />
@@ -62,7 +58,7 @@ function Header() {
             {toggle && <Menu />}
             {toggleOrders && <MyOrder />}
         </nav>
-    )
+    );
 }
 
 export default Header
